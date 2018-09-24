@@ -34,7 +34,7 @@
     "vinyl-fs": "^1.0.0"
   },
   "scripts": {
-    "preinstall": "sh scripts/preinstall.sh"
+    "preinstall": "cd scripts && preinstall.bat"
   },
   "devkit": {
     "buildTargets": {
