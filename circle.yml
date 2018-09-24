@@ -52,4 +52,5 @@ dependencies:
 test:
   override:
     - mkdir -p ~/swarm/modules/
+    - ln -s ~/devkit-core ~/swarm/modules/devkit-core
     - ./src/build/test/all-builds.sh ~/swarm
