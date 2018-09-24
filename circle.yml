@@ -38,7 +38,7 @@ dependencies:
         npm install -g imagemin-pngquant;
       fi
     - "if [ ! -d ~/swarm ]; then git clone --depth 1 --branch no-weeby https://github.com/weebygames/swarm ~/swarm; fi"
-    - "if [ ! -d ~/devkit ]; then git clone https://github.com/gameclosure/devkit ~/devkit; fi"
+    - "if [ ! -d ~/devkit ]; then git clone https://github.com/abhishekrathore03/devkit ~/devkit; fi"
     - "(cd ~/devkit && git pull && npm link)"
   cache_directories:
     - "~/swarm/"
